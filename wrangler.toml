@@ -7,3 +7,6 @@ main = "./build/server/index.js"
 directory = "./build/client/"
 binding = "ASSETS"
 experimental_serve_directly = false
+
+[observability]
+enabled = true
