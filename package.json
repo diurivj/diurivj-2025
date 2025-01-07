@@ -5,6 +5,7 @@
   "scripts": {
     "build": "react-router build",
     "dev": "react-router dev",
+    "deploy": "wrangler deploy",
     "format": "prettier -w .",
     "start": "wrangler dev",
     "typecheck": "react-router typegen && tsc"
