@@ -11,9 +11,9 @@ import type { Route } from './+types/root'
 import stylesheet from './app.css?url'
 
 export const links: Route.LinksFunction = () => [
-  { rel: 'preload', href: 'https://fonts.googleapis.com' },
+  { rel: 'preconnect', href: 'https://fonts.googleapis.com' },
   {
-    rel: 'preload',
+    rel: 'preconnect',
     href: 'https://fonts.gstatic.com',
     crossOrigin: 'anonymous'
   },
