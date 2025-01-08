@@ -1,3 +1,7 @@
+routes = [
+  { pattern = "diurivj.com", custom_domain = true }
+]
+
 workers_dev = true
 name = "diurivj"
 compatibility_date = "2024-12-30"
