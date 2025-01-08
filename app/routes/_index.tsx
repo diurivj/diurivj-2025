@@ -1,15 +1,6 @@
 import { Link } from 'react-router'
 import type { Route } from './+types/_index'
 
-export const headers: Route.HeadersFunction = () => {
-  return {
-    'Cache-Control': 'public, max-age=86400, must-revalidate',
-    'Last-Modified': 'Mon, 06 Jan 2025 12:00:00 GMT',
-    Expires: new Date(Date.now() + 3600 * 1000 * 24).toUTCString(),
-    ETag: '"diurivj-index-01"'
-  }
-}
-
 export function meta({}: Route.MetaArgs) {
   return [
     { title: 'Diurivj' },
@@ -18,6 +9,11 @@ export function meta({}: Route.MetaArgs) {
       content: `Diego Vazquez. I'm a developer living in Mexico City.`
     }
   ]
+}
+
+export function loader() {
+  console.log({ env: process.env })
+  return null
 }
 
 export default function Home() {
