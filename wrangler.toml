@@ -1,5 +1,6 @@
 routes = [
-  { pattern = "diurivj.com", custom_domain = true }
+  { pattern = "diurivj.com", custom_domain = true },
+  { pattern = "www.diurivj.com", custom_domain = true }
 ]
 
 workers_dev = true

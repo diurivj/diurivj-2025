@@ -11,11 +11,6 @@ export function meta({}: Route.MetaArgs) {
   ]
 }
 
-export function loader() {
-  console.log({ env: process.env })
-  return null
-}
-
 export default function Home() {
   return (
     <main className='container mx-auto flex h-dvh flex-col items-center justify-center gap-y-2 px-4 lg:px-0'>
