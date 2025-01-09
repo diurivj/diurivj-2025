@@ -1,6 +1,7 @@
 export function loader() {
   const content = `User-agent: Googlebot
 Disallow: /api/
+Disallow: /payment-info
 
 User-agent: *
 Allow: /`

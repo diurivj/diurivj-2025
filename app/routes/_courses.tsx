@@ -3,7 +3,7 @@ import type { Route } from './+types/_courses'
 
 export function meta({}: Route.MetaArgs) {
   return [
-    { title: 'Cursos | Diurivj' },
+    { title: 'Cursos | diurivj' },
     {
       name: 'description',
       content: `Coming soon.`

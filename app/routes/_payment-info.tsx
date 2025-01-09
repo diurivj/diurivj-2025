@@ -6,6 +6,10 @@ import {
   CardTitle
 } from '~/components/ui/card'
 
+export function meta() {
+  return [{ title: 'Información de pago | diurivj' }]
+}
+
 export default function PaymentInfo() {
   return (
     <main className='container mx-auto px-4 py-8 lg:px-0'>
@@ -23,16 +27,16 @@ export default function PaymentInfo() {
               <dd className='mt-1 text-gray-900'>012 180 00467369204 7</dd>
             </div>
             <div>
+              <dt className='font-medium text-gray-500'>Número de Cuenta</dt>
+              <dd className='mt-1 text-gray-900'>046 736 9204</dd>
+            </div>
+            <div>
               <dt className='font-medium text-gray-500'>
                 Titular de la Cuenta
               </dt>
               <dd className='mt-1 text-gray-900'>
                 Diego Uriel Vázquez Jaramillo
               </dd>
-            </div>
-            <div>
-              <dt className='font-medium text-gray-500'>Número de Cuenta</dt>
-              <dd className='mt-1 text-gray-900'>046 736 9204</dd>
             </div>
             <div>
               <dt className='font-medium text-gray-500'>Monto</dt>

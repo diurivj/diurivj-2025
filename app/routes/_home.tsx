@@ -2,7 +2,7 @@ import type { Route } from './+types/_index'
 
 export function meta({}: Route.MetaArgs) {
   return [
-    { title: 'Inicio | Diurivj' },
+    { title: 'Inicio | diurivj' },
     {
       name: 'description',
       content: `Diego Vazquez. I'm a software developer living in Mexico City.`

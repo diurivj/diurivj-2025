@@ -11,7 +11,7 @@ import type { Route } from './+types/_wd2'
 
 export function meta({}: Route.MetaArgs) {
   return [
-    { title: 'Curso de programación | diurivj' },
+    { title: 'Intro a la web | diurivj' },
     { name: 'description', content: 'Aprende a programar fácilmente' }
   ]
 }
