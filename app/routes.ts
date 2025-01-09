@@ -12,6 +12,8 @@ export default [
     route('/home', 'routes/_home.tsx'),
     route('/blog', 'routes/_blog.tsx'),
     route('/courses', 'routes/_courses.tsx'),
+    route('/payment-info', 'routes/_payment-info.tsx'),
     route('/*', 'routes/_not-found.tsx')
-  ])
+  ]),
+  route('/courses/wd2', 'routes/courses/_wd2.tsx')
 ] satisfies RouteConfig
