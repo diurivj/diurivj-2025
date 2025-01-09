@@ -2,8 +2,8 @@ import { NavLink } from 'react-router'
 
 export function Navbar() {
   const links = [
-    { name: 'Blog', to: '/blog' },
-    { name: 'Cursos', to: '/courses' }
+    { name: 'Cursos', to: '/courses' },
+    { name: 'Blog', to: '/blog' }
   ]
 
   return (
