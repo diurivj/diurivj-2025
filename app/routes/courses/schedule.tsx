@@ -12,7 +12,7 @@ export function Schedule() {
             </h2>
             <p className='pretty text-muted-foreground max-w-[900px] md:text-xl/relaxed lg:text-base/relaxed xl:text-xl/relaxed'>
               Las clases son online vía zoom. Todos los fines de semana de
-              7:00am a 10:00am (Ciudad de México). Sin embargo la comunicación
+              8:00am a 10:40am (Ciudad de México). Sin embargo la comunicación
               será casi diaria mediante el grupo de alumnos.
             </p>
           </div>
@@ -26,7 +26,7 @@ export function Schedule() {
                     Módulo 1 y 2: Intro a web & HTML, CSS, Javascript
                   </h3>
                   <p className='text-muted-foreground text-pretty'>
-                    Duración: 3 meses apróx.
+                    Duración: 2 meses aproximadamente
                   </p>
                 </div>
               </li>
@@ -36,7 +36,7 @@ export function Schedule() {
                     Módulo 3: React & React router
                   </h3>
                   <p className='text-muted-foreground text-pretty'>
-                    Duración: 2 meses apróx.
+                    Duración: 1 mes aproximadamente
                   </p>
                 </div>
               </li>
@@ -47,7 +47,7 @@ export function Schedule() {
               Fecha de inicio
             </h3>
             <p className='text-xl font-bold tracking-tighter underline sm:text-3xl'>
-              7 de Febrero del 2025
+              21 de Marzo del 2025
             </p>
           </div>
         </div>

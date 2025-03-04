@@ -29,7 +29,7 @@ export function Faq() {
               </h3>
               <ChevronDownIcon className='h-4 w-4' />
             </CollapsibleTrigger>
-            <CollapsibleContent className='px-6 py-4'>
+            <CollapsibleContent className='px-6 pb-4'>
               <div className='text-muted-foreground space-y-2'>
                 <p>
                   Tener una computadora, conexión a internet y actitud de ser
@@ -43,11 +43,11 @@ export function Faq() {
               <h3 className='text-lg font-semibold'>¿Se puede pagar a MSI?</h3>
               <ChevronDownIcon className='h-4 w-4' />
             </CollapsibleTrigger>
-            <CollapsibleContent className='px-6 py-4'>
+            <CollapsibleContent className='px-6 pb-4'>
               <div className='text-muted-foreground space-y-2'>
                 <p>
-                  Si, si quieres pagar con tarjeta de crédito y a MSI,
-                  contáctame por mensaje o al correo diurivj@gmail.com
+                  Si; para pagar con tarjeta de crédito y/o a MSI puedes
+                  encontrar más informacion en la sección de pagos.
                 </p>
               </div>
             </CollapsibleContent>
@@ -59,7 +59,7 @@ export function Faq() {
               </h3>
               <ChevronDownIcon className='h-4 w-4' />
             </CollapsibleTrigger>
-            <CollapsibleContent className='px-6 py-4'>
+            <CollapsibleContent className='px-6 pb-4'>
               <div className='text-muted-foreground space-y-2'>
                 <p>
                   Las clases son en línea en tiempo real, las sesiónes quedan
@@ -75,7 +75,7 @@ export function Faq() {
               </h3>
               <ChevronDownIcon className='h-4 w-4' />
             </CollapsibleTrigger>
-            <CollapsibleContent className='px-6 py-4'>
+            <CollapsibleContent className='px-6 pb-4'>
               <div className='text-muted-foreground space-y-2'>
                 <p>
                   La dinámica del curso consiste en estar en comunicación casi
@@ -93,12 +93,12 @@ export function Faq() {
               </h3>
               <ChevronDownIcon className='h-4 w-4' />
             </CollapsibleTrigger>
-            <CollapsibleContent className='px-6 py-4'>
+            <CollapsibleContent className='px-6 pb-4'>
               <div className='text-muted-foreground space-y-2'>
                 <p>
                   Faltar a clases puede privarte de preguntar en tiempo real,
                   sin embargo tendrás acceso a la clase grabada después de ser
-                  procesada en Youtube.
+                  procesada por Youtube.
                 </p>
               </div>
             </CollapsibleContent>
@@ -110,11 +110,24 @@ export function Faq() {
               </h3>
               <ChevronDownIcon className='h-4 w-4' />
             </CollapsibleTrigger>
-            <CollapsibleContent className='px-6 py-4'>
+            <CollapsibleContent className='px-6 pb-4'>
               <div className='text-muted-foreground space-y-2'>
                 <p>
                   Los reembolsos serán posibles solamente antes de comenzar el
                   curso.
+                </p>
+              </div>
+            </CollapsibleContent>
+          </Collapsible>
+          <Collapsible className='bg-background rounded-lg border shadow-sm'>
+            <CollapsibleTrigger className='flex w-full items-center justify-between gap-4 px-6 py-4'>
+              <h3 className='text-lg font-semibold'>Tengo otra duda</h3>
+              <ChevronDownIcon className='h-4 w-4' />
+            </CollapsibleTrigger>
+            <CollapsibleContent className='px-6 pb-4'>
+              <div className='text-muted-foreground space-y-2'>
+                <p>
+                  Si tienes otra duda puedes mandar correo a diego@diurivj.com
                 </p>
               </div>
             </CollapsibleContent>
