@@ -5,7 +5,7 @@ routes = [
 
 workers_dev = true
 name = "diurivj"
-compatibility_flags = [ "nodejs_compat" ]
+compatibility_flags = [ "nodejs_compat_v2" ]
 compatibility_date = "2024-12-30"
 main = "./build/server/index.js"
 
