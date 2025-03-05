@@ -9,10 +9,40 @@ import { Navbar } from './navbar'
 import { Hero } from './hero'
 import type { Route } from './+types/_wd2'
 
+type OgMeta = 'og:title' | 'og:description' | 'og:image' | 'og:site_name'
+type XMeta =
+  | 'twitter:card'
+  | 'twitter:title'
+  | 'twitter:description'
+  | 'twitter:image'
+
+type GetOgMeta = Record<OgMeta | XMeta, string>
+export function getMeta(meta: GetOgMeta) {
+  return Object.entries(meta).map(([key, value]) => ({
+    name: key,
+    content: value
+  }))
+}
+
 export function meta({}: Route.MetaArgs) {
   return [
-    { title: 'Intro a la web | diurivj' },
-    { name: 'description', content: 'Aprende a programar fácilmente' }
+    { title: 'Intro a programación web | diurivj' },
+    {
+      name: 'description',
+      content: 'Aprende los fundamentos de programación orientado a la web.'
+    },
+    ...getMeta({
+      'og:description':
+        'Aprende los fundamentos de programación orientado a la web.',
+      'og:image': 'https://petdidos.fly.dev/img/wd2.jpg',
+      'og:site_name': 'Intro a programación web',
+      'og:title': 'Intro a la Web',
+      'twitter:card': 'summary_large_image',
+      'twitter:image': 'https://petdidos.fly.dev/img/wd2.jpg',
+      'twitter:title': 'Intro a programación web',
+      'twitter:description':
+        'Aprende los fundamentos de programación orientado a la web.'
+    })
   ]
 }
 
