@@ -34,11 +34,11 @@ export function meta({}: Route.MetaArgs) {
     ...getMeta({
       'og:description':
         'Aprende los fundamentos de programación orientado a la web.',
-      'og:image': 'https://petdidos.fly.dev/img/wd2.jpg',
+      'og:image': 'https://diurivj.com/img/wd2.jpg',
       'og:site_name': 'Intro a programación web',
       'og:title': 'Intro a la Web',
       'twitter:card': 'summary_large_image',
-      'twitter:image': 'https://petdidos.fly.dev/img/wd2.jpg',
+      'twitter:image': 'https://diurivj.com/img/wd2.jpg',
       'twitter:title': 'Intro a programación web',
       'twitter:description':
         'Aprende los fundamentos de programación orientado a la web.'
