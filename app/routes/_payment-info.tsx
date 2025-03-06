@@ -167,13 +167,13 @@ export default function PaymentInfo() {
         <CardContent>
           <p className='mb-4 text-gray-700'>
             Una vez hecho el pago, favor de mandar comprobante de pago y nombre
-            del estudiante a diego@diurivj.com.
+            del estudiante a diurivj@gmail.com.
           </p>
           <p className='mb-4 text-gray-700'>
             Por favor, ten en cuenta que los reembolsos se procesan de acuerdo
             con la política del curso seleccionado. Si deseas realizar un pago
             en línea o tienes alguna pregunta sobre los reembolsos, ponerse en
-            contacto mediante mensaje directo o al correo diego@diurivj.com.
+            contacto mediante mensaje directo o al correo diurivj@gmail.com.
           </p>
         </CardContent>
       </Card>
