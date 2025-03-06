@@ -127,7 +127,7 @@ export function Faq() {
             <CollapsibleContent className='px-6 pb-4'>
               <div className='text-muted-foreground space-y-2'>
                 <p>
-                  Si tienes otra duda puedes mandar correo a diego@diurivj.com
+                  Si tienes otra duda puedes mandar correo a diurivj@gmail.com
                 </p>
               </div>
             </CollapsibleContent>
